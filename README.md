@@ -1,8 +1,8 @@
-# codemirror-gcode-language
-
-***
+# gcode-lang-codemirror
 
 G-Code Language Support for CodeMirror 6
+
+***
 
 ## Overview
 
