@@ -1,6 +1,6 @@
 {
   "name": "gcode-lang-codemirror",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "G-Code Language Support for CodeMirror 6",
   "keywords": [
     "gcode",
@@ -8,18 +8,20 @@
     "codemirror",
     "language support"
   ],
-  "main": "src/index.js",
+  "type": "module",
+  "main": "main/index.js",
   "scripts": {
-    "build": "lezer-generator src/language/gcode.grammar -o src/language/compiled/language.js"
+    "build": "build.sh"
   },
   "dependencies": {
-    "@codemirror/highlight": "^0.19.6",
-    "@codemirror/language": "^0.19.3",
-    "@codemirror/tooltip": "^0.19.6",
+    "@codemirror/highlight": "^0.19.7",
+    "@codemirror/language": "^0.19.7",
+    "@codemirror/tooltip": "^0.19.7",
     "@lezer/lr": "^0.15.4"
   },
   "devDependencies": {
-    "@lezer/generator": "^0.15.2"
+    "@lezer/generator": "^0.15.4",
+    "esbuild": "^0.14.16"
   },
   "homepage": "https://github.com/oneislandearth/gcode-lang-codemirror#readme",
   "repository": {

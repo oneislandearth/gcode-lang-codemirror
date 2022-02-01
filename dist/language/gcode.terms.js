@@ -1,0 +1,1 @@
+const o=1,e=2,n=4,r=5,t=6,a=7,m=8,i=9,d=10,s=11,C=12,c=13,l=14;export{d as Axis,l as Brackets,t as ControlKeyword,a as ControlOperator,C as FeedSpeed,m as Function,n as GCommand,o as LineComment,r as MCommand,c as ON,s as Position,e as Program,i as Variables};
