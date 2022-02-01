@@ -1,6 +1,6 @@
 {
   "name": "gcode-lang-codemirror",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "G-Code Language Support for CodeMirror 6",
   "keywords": [
     "gcode",
@@ -9,9 +9,9 @@
     "language support"
   ],
   "type": "module",
-  "main": "main/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "build.sh"
+    "build": "./build.sh"
   },
   "dependencies": {
     "@codemirror/highlight": "^0.19.7",
