@@ -1,7 +1,8 @@
-{
+// Export the GCode Commands list
+export const GCodeCommands = {
   "G0": "Rapid Movement",
-  "G1": "Linear Movement",
-  "G4": "Wait for a number of milliseconds",
+  "G01": "Linear Movement",
+  "G04": "Wait for a number of milliseconds",
   "G20": "Set units to inches",
   "G21": "Set units to millimeters",
   "G28": "Home the axies",
@@ -74,4 +75,7 @@
   "B": "Set the B axis to",
   "C": "Set the C axis to",
   "F": "Set the feedrate to"
-}
+};
+
+// Export as default
+export default GCodeCommands;

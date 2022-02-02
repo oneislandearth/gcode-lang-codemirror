@@ -43,10 +43,10 @@ export function GCodeLanguage () {
   });
 
   // Return the language and extensions
-  return new LanguageSupport(language, {
+  return new LanguageSupport(language, [
     GCodeHighlighting,
     GCodeCommandTooltips
-  });
+  ]);
 };
 
 // Export as default

@@ -2,7 +2,7 @@
 import { hoverTooltip} from '@codemirror/tooltip';
 
 // Import the list of commands from the language
-import commands from './commands.json';
+import { GCodeCommands } from './commands.js';
 
 // Command hovering tooltips
 export const GCodeCommandTooltips = hoverTooltip((view, pos) => {
@@ -14,7 +14,7 @@ export const GCodeCommandTooltips = hoverTooltip((view, pos) => {
   const [command] = text.match(/[GM][0-9]+/);
 
   // Describe the command
-  const description = commands[command];
+  const description = GCodeCommands[command];
 
   // Try find a command
   if (!description) return null;
