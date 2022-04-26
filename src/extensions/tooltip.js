@@ -1,5 +1,4 @@
 // Import the required package for command tooltips
-import { view } from '@codemirror/view';
 import { hoverTooltip} from '@codemirror/tooltip';
 
 // Import the list of commands from the language
